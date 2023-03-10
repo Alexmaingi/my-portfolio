@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
@@ -12,10 +13,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Navbar />
+    {/* <Navbar />
     <Home />
     <About />
-    <Skills />
+    <Skills /> */}
     <Projects />
+    {/* <Contact /> */}
   </React.StrictMode>
 );

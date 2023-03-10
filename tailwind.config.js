@@ -8,6 +8,8 @@ module.exports = {
       sign: ["30% 70% 65% 35% / 51% 70% 30% 49% "],
       roun: ["9999px"],
       drop: ["0.390rem"],
+      movie: ["1rem"],
+      list: ["3rem"],
     },
   },
   plugins: [],
